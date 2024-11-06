@@ -5,7 +5,8 @@ body
 
 h1 
 {
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
     font-size: 100px;
 }
 
@@ -37,4 +38,28 @@ form
 
 button{
     font-size: 30px;
+}
+
+.Right-floating-sidebar {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.sidebar-images img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.BottomPicture {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
