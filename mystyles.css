@@ -1,10 +1,14 @@
 body {
     background-color: azure;
 }
-.RequirePoint {
+
+.RequirePoint 
+{
     color: red;
 }
-form {
+
+form 
+{
     max-width: 500px;
     margin: auto;
     background: #fff;
