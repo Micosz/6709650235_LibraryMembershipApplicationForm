@@ -1,5 +1,12 @@
-body {
+body 
+{
     background-color: azure;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 100px;
 }
 
 .RequirePoint 
@@ -21,7 +28,8 @@ form
     font-size: 25px;
 }
 
-.Book {
+.Book
+{
     display: block;
     margin-left: auto; 
     margin-right: auto;
