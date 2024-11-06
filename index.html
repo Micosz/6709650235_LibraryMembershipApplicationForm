@@ -30,8 +30,8 @@
              <label for="Thainame">ชื่อ - นามสกุล (ภาษาไทย): <span class="RequirePoint">***</span></label>
              <input id="Thainame" type="text" name="Thainame" required /> 
              <br><br>
-             <label for="Thainame">ชื่อ - นามสกุล (ภาษาอังกฤษ): <span class="RequirePoint">***</span></label>
-         <input id="Thainame" type="text" name="Thainame" required /> 
+             <label for="EngName">ชื่อ - นามสกุล (ภาษาอังกฤษ): <span class="RequirePoint">***</span></label>
+         <input id="EngName" type="text" name="EngName" required /> 
                  <br><br>
          </fieldset> <br>
          <fieldset>
@@ -40,8 +40,8 @@
              <label for="male">ชาย</label>
              <input type="radio" id="female" name="gender" value="female" required>
              <label for="female">หญิง</label>
-             <input type="radio" id="Non-Binary" name="gender" value="Non-Binary" required>
-             <label for="Don't Want to tell">ไม่ระบุ</label> 
+             <input type="radio" id="nonBinary" name="gender" value="Non-Binary" required>
+             <label for="nonBinary">ไม่ระบุ</label> 
                  <br><br>
          </fieldset> <br>
 
@@ -114,9 +114,7 @@
 
          <button type="submit">ยืนยันการสมัครสมาชิก</button> <br><br><br><br><br><br>
 
-         <picture>
-             <img src="resources/Thank-You.gif" alt="Thank-You!" class="BottomPicture">
-         </picture>
+         <img src="resources/Thank-You.gif" alt="Thank-You!" class="BottomPicture">
    
      </form>
 
@@ -128,7 +126,5 @@
             document.getElementById(optionId).style.display = 'block';
         }
      </script>
-        
-     </form>
 </body>
 </html>
